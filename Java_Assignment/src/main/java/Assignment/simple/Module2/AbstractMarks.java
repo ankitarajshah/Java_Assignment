@@ -11,44 +11,54 @@ package Assignment.simple.Module2;
 
 abstract class Marks
 {
-	abstract public void getPercentage();
+	abstract public float getPercentage();
 }
 class A extends Marks
 {
-	A() //constructor
+	float marks1,marks2,marks3;
+	public A(float m1,float m2,float m3) //constructor
 	{
-		int m1=80,m2=85,m3=95;
+		marks1=m1;
+		marks2=m2;
+		marks3=m3;
 	}
 	
 	@Override
-	public void getPercentage()
+	public float getPercentage()
 	{
 		// TODO Auto-generated method stub
-		int per;
-		int m1=80,m2=85,m3=95;
-		per =((m1+m2+m3)/300)*100;
-		System.out.println("Percentage of A :"+per+"%");
+		return((marks1+marks2+marks3)/300)*100;
 	}
 }
 class B extends Marks
 {
-	B() //constructor
+	float marks1,marks2,marks3,marks4;
+	public B(float m1,float m2,float m3,float m4) //constructor
 	{
-		
+		marks1=m1;
+		marks2=m2;
+		marks3=m3;
+		marks4=m4;
 	}
-	@ Override
-	 public void getPercentage() {
+	
+	@Override
+	public float getPercentage()
+	{
+		// TODO Auto-generated method stub
+		return((marks1+marks2+marks3+marks4)/400)*100;
 	}
-	 {
-		 
-	 }
 }
 public class AbstractMarks
 {
 	public static void main(String[] args) 
 	{
-		Marks a= new A();
-		a.getPercentage();
+		A studentA = new A(80,85,90);
+		
+		System.out.println("Percentage for studentA:"+studentA.getPercentage()+"%");
+		B studentB = new B(75,80,85,90);
+		//studentB.getPercentage();
+		System.out.println("Percentage for studentA:"+studentB.getPercentage()+"%");
+
 	}
 
 }
