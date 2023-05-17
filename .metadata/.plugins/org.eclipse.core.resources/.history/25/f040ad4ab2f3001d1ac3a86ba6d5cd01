@@ -1,0 +1,26 @@
+package Assignment.simple.Module2;
+
+class Member
+{
+	String name;
+	int age;
+	int phone;
+	String address;
+	int salary;
+	
+	public void printSalary()
+	{
+		System.out.println(salary);
+	}
+}
+
+Class 
+
+public class MemberEmpMng 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}
