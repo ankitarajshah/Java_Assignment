@@ -1,9 +1,0 @@
-package Assignment.simple.Module2;
-
-public class AbstractParent 
-{
-	public static void main(String[] args) 
-	{
-		
-	}
-}
