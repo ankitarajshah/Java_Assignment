@@ -39,7 +39,7 @@ class Areaa extends Shape
 		System.out.println("CircleArea is:"+area);
 	}
 }
-public class AbstractArea 
+public class Q20_AbstractArea 
 {
 	public static void main(String[] args) 
 	{

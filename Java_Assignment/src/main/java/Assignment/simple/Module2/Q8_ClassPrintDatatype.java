@@ -32,7 +32,7 @@ class PrintNumber
 		System.out.println("String : "+a);
 	}
 }
-public class ClassPrintDatatype 
+public class Q8_ClassPrintDatatype 
 {
 	public static void main(String[] args) 
 	{

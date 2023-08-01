@@ -27,7 +27,7 @@ class Child3 extends Parent1
 	}
 }
 
-public class AbstractParent 
+public class Q16_AbstractParent 
 {
 	public static void main(String[] args) 
 	{

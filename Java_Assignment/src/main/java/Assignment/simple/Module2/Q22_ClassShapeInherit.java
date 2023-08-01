@@ -35,7 +35,7 @@ class Square1 extends Rectangle1
 		System.out.println("Square is rectangle shape.");
 	}
 }
-public class ClassShapeInherit
+public class Q22_ClassShapeInherit
 {
 	public static void main(String[] args) 
 	{
@@ -43,7 +43,7 @@ public class ClassShapeInherit
 		s.shape1display();
 		s.Rectangle1display();
 	
-		//s.Square1display();
+		s.Square1display();
 		
 	}
 }

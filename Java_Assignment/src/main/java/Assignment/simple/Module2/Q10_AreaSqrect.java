@@ -1,3 +1,4 @@
+
 package Assignment.simple.Module2;
 //Create a class to print the area of a square and a rectangle. The class has 
 //two methods with the same name but different number of parameters. 
@@ -20,7 +21,7 @@ class Area
 }
 
 
-public class AreaSqRect 
+public class Q10_AreaSqrect 
 {
 	public static void main(String[] args) 
 	{

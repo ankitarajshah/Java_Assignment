@@ -48,7 +48,7 @@ class B extends Marks
 		return((marks1+marks2+marks3+marks4)/400)*100;
 	}
 }
-public class AbstractMarks
+public class Q18_AbstractMarks
 {
 	public static void main(String[] args) 
 	{

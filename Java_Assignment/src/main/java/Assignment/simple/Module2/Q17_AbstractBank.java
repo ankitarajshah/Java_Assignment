@@ -35,7 +35,7 @@ class BankC extends Bank
 	}
 }
 
-public class AbstractBank 
+public class Q17_AbstractBank 
 {
 	public static void main(String[] args) 
 	{
